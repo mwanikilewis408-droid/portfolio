@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lewis Mwaniki Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>Lewis Mwaniki</h1>
+    <p>Freelance Front-end Web Developer | Fixing broken websites & making them run smoothly</p>
+  </header>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML / CSS / JavaScript</li>
+      <li>Responsive Design</li>
+      <li>UI/UX Fixes & Optimization</li>
+      <li>Debugging & Problem Solving</li>
+      <li>Web Performance Improvements</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Happy New Year Website</h3>
+      <p>Responsive greeting website built with HTML, CSS & JS</p>
+      <a href="https://mwanikilewis408-droid.github.io/new-year/" target="_blank">View Project</a>
+    </div>
+    <div class="project">
+      <h3>IYF Embu Website</h3>
+      <p>Community platform showcasing free tech courses and volunteer projects</p>
+      <a href="https://mwanikilewis408-droid.github.io/IYF-Embu/" target="_blank">View Project</a>
+    </div>
+  </section>
+
+  <!-- Before & After Section -->
+  <section id="before-after">
+    <h2>Problem → Solution</h2>
+    <div class="before-after-wrapper">
+      <div class="before">
+        <img src="images/broken-laptop.png" alt="Broken Laptop">
+        <p>Broken websites, bugs, 404 errors, broken links</p>
+      </div>
+      <div class="after">
+        <img src="images/fixed-laptop.png" alt="Fixed Laptop">
+        <p>Clean, functional, and responsive websites after my service</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:lewismwebdev@gmail.com">lewismwebdev@gmail.com</a></p>
+    <p>WhatsApp: <a href="https://wa.me/254741590363">+254 741 590 363</a></p>
+    <p>GitHub: <a href="https://github.com/mwanikilewis408-droid">mwanikilewis408-droid</a></p>
+  </section>
+</body>
+</html>
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body */
+body {
+  background-color: #0d1117;
+  color: #c9d1d9;
+  line-height: 1.6;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(90deg, #161b22, #0d1117);
+}
+.hero h1 {
+  font-size: 2.8rem;
+  color: #58a6ff;
+  margin-bottom: 10px;
+}
+.hero p {
+  font-size: 1.2rem;
+  color: #8b949e;
+}
+
+/* Sections */
+section {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+h2 {
+  font-size: 2rem;
+  color: #58a6ff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Skills */
+#skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+  gap: 15px;
+}
+#skills li {
+  background-color: #161b22;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid #30363d;
+}
+
+/* Projects */
+.project {
+  background-color: #161b22;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #30363d;
+  text-align: center;
+}
+.project a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #58a6ff;
+  text-decoration: none;
+  border: 1px solid #58a6ff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.project a:hover {
+  background-color: #58a6ff;
+  color: #0d1117;
+}
+
+/* Before & After */
+.before-after-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  margin-top: 20px;
+}
+.before, .after {
+  flex: 1 1 300px;
+  text-align: center;
+  background-color: #161b22;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #30363d;
+}
+.before img, .after img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Contact */
+#contact a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+#contact a:hover {
+  text-decoration: underline;
+}
+
+</html>
