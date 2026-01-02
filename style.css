@@ -44,6 +44,13 @@ body {
   color: #8b949e;
 }
 
+.scroll-hint {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #8b949e;
+  animation: fadeIn 2s infinite alternate;
+}
+
 /* Sections */
 section {
   padding: 50px 20px;
